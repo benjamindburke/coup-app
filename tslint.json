@@ -1,0 +1,91 @@
+{
+    "defaultSeverity": "error",
+    "rules": {
+        "promise-function-async": true,
+        "await-promise": true,
+        "no-return-await": true,
+        "no-console": true,
+        "no-shadowed-variable": true,
+        "triple-equals": true,
+        "deprecation": true,
+        "no-duplicate-exports": true,
+        "prefer-for-of": true,
+        "arrow-return-shorthand" :true,
+        "no-unnecessary-initializer": true,
+        "no-unused-variable": true,
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "allow-leading-underscore",
+            "check-format"
+        ],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": {
+                "objects": "always",
+                "arrays": "always"
+                },
+                "singleline": "never"
+            }
+        ],
+        "semicolon": true,
+        "no-trailing-whitespace": true,
+        "indent": [
+            true,
+            "spaces",
+            2
+        ],
+        "no-consecutive-blank-lines": true,
+        "no-empty-interface": true,
+        "no-magic-numbers": true,
+        "typedef": [
+            true,
+            "parameter",
+            "arrow-parameter"
+        ],
+        "ban-comma-operator": true,
+        "no-eval": true,
+        "no-unused-expression": true,
+        "no-floating-promises": true,
+        "no-invalid-template-strings": true,
+        "no-this-assignment": true,
+        "no-var-keyword": true,
+        "prefer-const": true,
+        "arrow-parens": true,
+        "eofline": true,
+        "curly": true,
+        "prefer-object-spread": true,
+        "no-parameter-reassignment": true,
+        "static-this": true
+    },
+    "jsRules": {
+        "curly": true,
+        "no-duplicate-variable": true,
+        "no-duplicate-imports": true,
+        "no-empty": true,
+        "no-console": true,
+        "no-trailing-whitespace": true,
+        "no-invalid-this": true,
+        "no-shadowed-variable": true,
+        "no-magic-numbers": true,
+        "no-parameter-reassignment": true,
+        "no-return-await": true,
+        "no-unused-expression": true,
+        "prefer-conditional-expression": true,
+        "prefer-object-spread": true,
+        "static-this": true,
+        "triple-equals": true,
+        "ban-comma-operator": true,
+        "class-name": true,
+        "no-unnecessary-initializer": true,
+        "arrow-parens": true,
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "no-consecutive-blank-lines": true,
+        "semicolon": true
+    }
+}
