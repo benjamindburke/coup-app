@@ -12,7 +12,7 @@
             "clearConsoleOnReload": true,
             "internalConsoleOptions": "openOnSessionStart",
             "pathMappings": [
-                { "url": "webpack:///app/", "path": "${workspaceFolder}/app" },
+                { "url": "webpack://coup/app/", "path": "${workspaceFolder}/app" },
                 { "url": "webpack:///~/", "path": "${workspaceFolder}/node_modules/" },
                 { "url": "webpack:///./~/", "path": "${workspaceFolder}/node_modules/" },
                 { "url": "webpack:///node_modules/", "path": "${workspaceFolder}/node_modules/" },
