@@ -1,12 +1,12 @@
-import { Hello } from "components/Hello";
-import * as ReactDOM from "react-dom";
 import * as React from "react";
+import * as ReactDOM from "react-dom";
+import Modal from "react-modal";
+
+import App from "./app";
+
+Modal.setAppElement("#root");
 
 ReactDOM.render(
-    <Hello
-        framework="React"
-        compiler="Typescript"
-        bundler="Webpack"
-    />,
+    <App />,
     document.getElementById("root")
 );

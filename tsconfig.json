@@ -2,6 +2,7 @@
     "compilerOptions": {
         "outDir": "./lib/",
         "baseUrl": "./app",
+        "esModuleInterop": true,
         "sourceMap": true,
         "allowSyntheticDefaultImports": false,
         "noImplicitAny": true,
